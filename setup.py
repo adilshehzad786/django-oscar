@@ -55,7 +55,10 @@ docs_requires = [
     sorl_thumbnail_version,
     easy_thumbnails_version,
 ]
-
+dependency_links=[
+        "https://github.com/adilshehzad786/django-oscar",
+  
+    ],
 test_requires = [
     'WebTest>=2.0,<2.1',
     'coverage>=4.5,<4.6',
